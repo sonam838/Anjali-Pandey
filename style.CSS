@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#first{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(82, 82, 79);
+}
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1528837516156-0a7225a43641?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 95, 69, 0.123);
+
+}
+#nav{
+    
+        display: flex;
+        justify-content: space-around;
+        padding-left: 90px;
+        padding-right: 130px;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0);
+    
+    
+}
+#navi h5{
+    color: white;
+    font-family: "open-sans";
+    font-weight: 100;
+    font-size: 15px;
+    
+}
+#home{
+   
+  position: relative;
+    width: 70px;
+    height: 30px;
+    background-color: rgba(17, 51, 40, 0.445);
+    border-radius: 6px;
+}
+#home h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#left{
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    width: 40%;
+    height: 60%;
+    
+    padding-left: 30px;
+}
+#left h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+#left h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+}
+#line{
+    
+    width: 130px;
+    height: 3px;
+    background-color: black;
+}
+#para{
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(59, 58, 58, 0.808);
+    
+}
+#nojo{
+    margin-top: 30px;
+    width: 100px;
+    height: 34px;
+    color: white;
+    border: 1.5px solid rgb(24, 99, 74);
+    font-family: "Montserrat";
+    font-size: 12px;
+    background-color:rgb(8, 37, 28);
+    border-radius: 6px;
+}
+#dojo{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100px;
+    height: 34px;
+    color: white;
+    border: 2.5px solid rgb(5, 5, 5);
+    font-family: "Montserrat";
+    font-size: 12px;
+    background-color:transparent;
+    border-radius: 6px;
+    
+}
+#side{
+    position: absolute;
+    top: 60%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 30%;
+    background-color: rgba(12, 19, 15, 0.541);
+}
+#side h4{
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(245, 245, 245, 0.74);
+}
+#side p{
+    font-weight: 300;
+    font-family: "Montserrat";
+    font-size: 10px;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 15px;
+    color: rgba(196, 190, 190, 0.726);
+
+}
+#last
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  position: absolute;
+    top: 90%;
+    left: 0;
+    
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#last h5{
+    
+    margin-left: 10px;
+    padding: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "montserrat";
+    color: rgb(192, 190, 190);
+
+}
+#rock
+{display: flex;
+    position: absolute;
+    top: 18%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    width: 55%;
+    height: 20px;
+    
+    
+}
+#rock h4{
+    font-weight: 300;
+    font-size: 11px;
+    color: rgb(228, 226, 226);
+    margin-left: 10px;
+    font-family: "montserrat";
+
+}
+#rock i{
+    color: rgb(189, 187, 187);
+}
+#near{
+    position: absolute;
+    top: 30%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    
+    width: 55%;
+    height: 60px;
+    margin-left: 18px;
+    
+    
+}
+#near h5{
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 10px;
+    font-family: "montserrat";
+    color: rgb(156, 155, 155);
+}
+#near h6{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: "montserrat";
+    margin-top: 3px;
+    color: rgb(165, 164, 164);
+}
